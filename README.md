@@ -1,4 +1,4 @@
-# flutter_conversor
+# Flutter Monetary Conversor
 
 Monetary converter using Flutter with Dart.
 

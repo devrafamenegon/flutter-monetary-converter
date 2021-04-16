@@ -1,16 +1,39 @@
-# flutter_conversor
+## 🧪 Technologies
 
-Monetary converter using Flutter with Dart.
+This project was developed using the following technologies:
 
-## Getting Started
+- [Flutter](https://flutter.dev/)
 
-This project is a starting point for a Flutter application.
+## 🔥 Preview
 
-A few resources to get you started if this is your first Flutter project:
+![Using](https://github.com/C0bal/flutter-monetary-converter/blob/master/.github/using.gif)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## 🚀 Getting started
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Clone the project and access the folder
+
+```bash
+$ git clone https://github.com/C0bal/flutter-monetary-converter && cd flutter-monetary-converter
+```
+
+Follow the steps below
+
+```bash
+# Open the project
+$ Go to Android Studio
+
+# Run app
+$ Open project folder and run the application
+```
+
+## 💻 Project
+
+Monetary converter consuming central bank api using Flutter with Dart.
+
+## 📝 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE.md) file for details.
+
+---
+
+<p align="center">Made by Rafael Menegon</p>

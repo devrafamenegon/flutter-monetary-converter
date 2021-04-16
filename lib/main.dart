@@ -9,8 +9,9 @@ const request = "https://api.hgbrasil.com/finance?format=json&key=fc60cf6f";
 void main() async{
   runApp(MaterialApp(
     home: Home(),
+    debugShowCheckedModeBanner: false,
     theme: ThemeData(
-        hintColor: Colors.green,
+        hintColor: Colors.green,    
         primaryColor: Colors.white,
         inputDecorationTheme: InputDecorationTheme(
           enabledBorder:
@@ -79,7 +80,7 @@ class _HomeState extends State<Home> {
       appBar: AppBar(
           title: Text("\$ Conversor Monetário \$",
             style: TextStyle(
-              color: Colors.black54,
+              color: Colors.white,
             ),
           ),
           backgroundColor: Colors.green,
@@ -123,7 +124,7 @@ class _HomeState extends State<Home> {
                               size: 150.0,
                               color: Colors.green),
                         ),
-                        buildTextField("Reais", "RS\$", realController, _realChanged),
+                        buildTextField("Reais", "R\$", realController, _realChanged),
                         Divider(),
                         buildTextField("Dólares", "US\$", dolarController, _dolarChanged),
                         Divider(),
